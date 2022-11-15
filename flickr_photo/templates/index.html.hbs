@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+	<head>
+		<title>Flickr Photos</title>
+	</head>
+	
+	<body>
+		<h1>{{title}}</h1>
+		
+		<div>
+			{{#each items}}
+				<img src="{{this.media.m}}" />
+			{{/each}}
+		</div>
+	</body>
+</html>
